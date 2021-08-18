@@ -1,14 +1,79 @@
-## regresspy
+# Regression Evaluating Package 
 
-regresspy is a python module for carrying out simple regressions using gradient descent algorithm. However, the library is half complete. Your task is to fill in the necessary codes. The tasks of the project is given below:
+[![image](https://img.shields.io/pypi/v/py-package-template.svg)](#)
+[![Build Status](https://travis-ci.org/AlexIoannides/py-package-template.svg?branch=master)](#)
 
-I have Forked the repository from main branch of the file.
-New branch created using my username.
-Filled .gitignore file by creating one for Python from .gitignore.io.
-Write the codes for the mean absolute, sum of squared, mean squared, and root mean squared errors in the loss.py file.
-test_loss.py completed.
-After that, went to the gradient_descent.py file. It contains two functions named forward for computing forward propagation and backward for computing the gradients. The second one was already done. All I have filled in the codes for forward propagation.
-Then went to the main.py file where the actual training will take place. The first task was to complete the _initialize_weights function. Then completed the _train function. Finally, completed the predict and score function.
-then went to the model.py file in the test folder. There, I have performed two regressions. First one was carried out using the SGDRegressor from the sklearn library. Second one was carried out using my own codes. Compared the results and wrote in the README.md file (You can delete this README file).
-Filled requirements.txt file according to the libraries I have used in my codes.
-Filled the setup.py file to install the code as a library.
+The regress_py package allows users to download the contents of this [GiHub repository](https://github.com/roman1117459/regress_py_package),  containing a Regression Evaluating Python package project to be used as a gradient descent, loss and regression problem for kick-starting Machine learning or Deep Learning algorithm model evaluation of **any** type of Package; destined for upload to just for local install using Pip. The downloaded package includes the following components to measure or evalute the loss or any kind of measurement without having to spend time cloning existing set-ups from other projects:
+
+- a minimal `setup.py` file;
+- testing with PyTest;
+- Evaluate the gradient descent loss and info; 
+
+A description of how to work with (and modify) each of these components, is provided in more detail in the sections that follow-on below, as well as in the documentation and within the example code bundled with the package.
+
+This is obviously a opinionated view of how a Python package project ought to be structured, based largely on my own experiences and requirements.
+
+
+
+## Downloading a regress_py package
+
+To down load the latest version of this project located in [this GiHub repository](https://github.com/roman1117459/regress_py_package), execute the following command from the command line:
+
+```bash
+pip install regresspy
+```
+
+This will be downloaded to the current directory and will contain the following directory structure:
+
+```bash
+regress_py_package/
+
+ |-- regresspy/
+ |-- |-- __init__.py
+ |-- |-- gradient_descent.py
+ |-- |-- loss.py
+ |-- |-- regression.py
+ |-- test/
+ |-- |   __init__.py
+ |-- |   model.py
+ |-- |   test.py
+ |-- .idea
+ |-- .gitignore
+ |-- License
+ |-- README.md
+ |-- requirements.txt
+ |-- setup.py
+```
+## Installing
+
+Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+
+```bash
+pip install wheel
+```
+Wheel will build the package. and after that run: 
+
+```bash
+python setup.py bdist_wheel
+python setup.py sdist bdist_wheel
+
+```
+It will create 2 new directory which is called build and dist. Inside of dist folder there will found a wheel file. After run this command:
+```bash
+pip install .\regresspy-0.2.0-py3-none-any.whl
+```
+## Test the regress_py_package
+
+You can also check the liner regression trained rmse value from scikitlearn and also can observe loss values according to the epochs. You can also check your train rmse according to my code. To check the model.py, open powershell and run this code:
+
+```bash
+python model.py
+```
+You can also test different kind of loss such as  mae, sse, mse, rmse. For this just run the below code: 
+```bash
+python test_loss.py
+```
+
+Now just declare the parameters and test your values.
+
+Done! regresspy package is installed successfully. Now you can run it into your Powershell or Commandpromp.
