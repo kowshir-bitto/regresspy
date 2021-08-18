@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
 
     # Here is the URL where you can find the code, in this case on GitHub.
-    url='',
+    url='https://github.com/kowshir-bitto/regresspy/tree/kowshir-bitto',
     # Here are the keywords of my library.
     keywords='gradient descent algorithm, regression, loss',
 
