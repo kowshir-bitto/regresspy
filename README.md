@@ -3,7 +3,7 @@
 [![image](https://img.shields.io/pypi/v/py-package-template.svg)](#)
 [![Build Status](https://travis-ci.org/AlexIoannides/py-package-template.svg?branch=master)](#)
 
-The regress_py package allows users to download the contents of this [GiHub repository](https://github.com/roman1117459/regress_py_package),  containing a Regression Evaluating Python package project to be used as a gradient descent, loss and regression problem for kick-starting Machine learning or Deep Learning algorithm model evaluation of **any** type of Package; destined for upload to just for local install using Pip. The downloaded package includes the following components to measure or evalute the loss or any kind of measurement without having to spend time cloning existing set-ups from other projects:
+The regress_py package allows users to download the contents of this [GiHub repository](https://github.com/kowshir-bitto/regresspy/tree/kowshir-bitto),  containing a Regression Evaluating Python package project to be used as a gradient descent, loss and regression problem for kick-starting Machine learning or Deep Learning algorithm model evaluation of **any** type of Package; destined for upload to just for local install using Pip. The downloaded package includes the following components to measure or evalute the loss or any kind of measurement without having to spend time cloning existing set-ups from other projects:
 
 - a minimal `setup.py` file;
 - testing with PyTest;
@@ -17,7 +17,7 @@ This is obviously a opinionated view of how a Python package project ought to be
 
 ## Downloading a regress_py package
 
-To down load the latest version of this project located in [this GiHub repository](https://github.com/roman1117459/regress_py_package), execute the following command from the command line:
+To down load the latest version of this project located in [this GiHub repository](https://github.com/kowshir-bitto/regresspy/tree/kowshir-bitto), execute the following command from the command line:
 
 ```bash
 pip install regresspy
@@ -37,10 +37,6 @@ regress_py_package/
  |-- |   __init__.py
  |-- |   model.py
  |-- |   test.py
- |-- .idea
- |-- .gitignore
- |-- License
- |-- README.md
  |-- requirements.txt
  |-- setup.py
 ```
