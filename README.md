@@ -5,9 +5,9 @@
 
 The regress_py package allows users to download the contents of this [GiHub repository](https://github.com/kowshir-bitto/regresspy/tree/kowshir-bitto),  containing a Regression Evaluating Python package project to be used as a gradient descent, loss and regression problem for kick-starting Machine learning or Deep Learning algorithm model evaluation of **any** type of Package; destined for upload to just for local install using Pip. The downloaded package includes the following components to measure or evalute the loss or any kind of measurement without having to spend time cloning existing set-ups from other projects:
 
-- a minimal `setup.py` file;
-- testing with PyTest;
-- Evaluate the gradient descent loss and info; 
+- A minimal `setup.py` file
+- Testing with PyTest
+- Evaluate the gradient descent loss and info
 
 A description of how to work with (and modify) each of these components, is provided in more detail in the sections that follow-on below, as well as in the documentation and within the example code bundled with the package.
 
@@ -72,4 +72,4 @@ python test_loss.py
 
 Now just declare the parameters and test your values.
 
-Done! regresspy package is installed successfully. Now you can run it into your Powershell or Commandpromp.
+Done! regresspy package is installed successfully. Now you can run it into your Powershell or Command prompt.
