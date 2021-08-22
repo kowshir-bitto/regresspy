@@ -1,6 +1,0 @@
-    install_requires=[
-        'conda==4.10.1',
-        'numpy==1.19.5',
-        'scikit-image==0.18.1',
-        'scikit-learn',
-    ]
