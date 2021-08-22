@@ -72,7 +72,7 @@ You can also test different kind of loss such as  mae, sse, mse, rmse. For this 
 python test_loss.py
 ```
 
-## How Gradient Descent Works
+## How Our Model Works
 Gradient descent is an iterative optimization technique for determining a function's local minimum. To use gradient descent to determine a function's local minimum, we must take steps proportional to the negative of the function's gradient (move away from the gradient) at the present location.
 
 ## Step 1 
