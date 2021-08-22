@@ -27,13 +27,13 @@ pip install regresspy
 This will be downloaded to the current directory and will contain the following directory structure:
 
 ```bash
-regress_py_package/
-
  |-- regresspy/
  |-- |-- __init__.py
  |-- |-- gradient_descent.py
  |-- |-- loss.py
+ |-- |-- model.py
  |-- |-- regression.py
+ |-- |-- test_loss.py
  |-- test/
  |-- |   __init__.py
  |-- |   model.py
