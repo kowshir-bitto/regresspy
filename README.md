@@ -3,8 +3,8 @@
 
 A python library to implement regression model using Gradient Descent from scratch.
 
-# How gradient descent works
-Gradient descent is an iterative optimization algorithm for finding the local minimum of a function. To find the local minimum of a function using gradient descent, we must take steps proportional to the negative of the gradient (move away from the gradient) of the function at the current point.
+# How Gradient Descent Works
+Gradient descent is an iterative optimization technique for determining a function's local minimum. To use gradient descent to determine a function's local minimum, we must take steps proportional to the negative of the function's gradient (move away from the gradient) at the present location.
 
 # Step 1 
 (Error function declaration) I used mae,sse,mse & rmse as error function to evaluate my model. You can find all function on loss.py file from regresspy main directory.
@@ -22,4 +22,4 @@ Gradient descent is an iterative optimization algorithm for finding the local mi
 (Running the model) If Regression class is the heart of this programme then this model.py file is the brain. In this case I called a scikit learn library and calculate rmse from there, in the mean time I called my Regression model and then calculate rmse using our own model that we built. Result were quit similar and package is ready.
 
 # Conclusion 
-It was quite good programme that I write on my academic career. Special thanks to my course teacher "Musabbir Hossain" who helped me a lot by giving basic structure of this package and fixing error when I was lost in the dark by facing some critical error on model.py file.
+It was an excellent software that I wrote as part of my academic career. Special thanks to my course instructor "Musabbir Hasan Sammak," who aided me much by explaining the fundamental structure of this package and correcting errors when I was completely stumped by a crucial issue in the model.py file.
